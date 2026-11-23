@@ -1,0 +1,4 @@
+Model Configuration,Features Count,Accuracy,Precision,Recall,F1-Score,Latency (ms)
+Baseline KNN (All 57 Features),57,91.75,90.65,88.15,89.39,20.69
+Feature Selection KNN (Top 20 Features),20,92.51,91.29,89.53,90.4,16.12
+"Optuna Tuned KNN (Top 20 Features, p=1 Manhattan)",20,92.62,94.03,86.78,90.26,64.77
